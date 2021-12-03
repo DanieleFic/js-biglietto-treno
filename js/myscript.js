@@ -26,5 +26,5 @@ const userPrezzobiglietto = (0.21  * datiKMpercorsi );
 let Sconto = (userPrezzobiglietto / 100) * discount; 
 let prezzoScontato = (userPrezzobiglietto - Sconto );
 
-document.getElementById("costo").innerHTML = (prezzoScontato) + "€"
 let n = prezzoScontato.toFixed(2);
+document.getElementById("costo").innerHTML = n + "€"
