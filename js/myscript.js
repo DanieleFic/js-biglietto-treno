@@ -23,7 +23,7 @@ if(datiAnniUtente < 18){
 }
 
 const userPrezzobiglietto = (0.21  * datiKMpercorsi );
-let Sconto = (userPrezzobiglietto / 100) * discount; 
+let sconto = (userPrezzobiglietto / 100) * discount; 
 let prezzoScontato = (userPrezzobiglietto - Sconto );
 
 let n = prezzoScontato.toFixed(2);
